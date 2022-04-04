@@ -10,3 +10,15 @@ C:\Appdoon\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.dll
 C:\Appdoon\Src\Appdoon.Application\obj\Debug\net5.0\refint\Appdoon.Application.dll
 C:\Appdoon\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.pdb
 C:\Appdoon\Src\Appdoon.Application\obj\Debug\net5.0\ref\Appdoon.Application.dll
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\bin\Debug\net5.0\Appdoon.Application.deps.json
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\bin\Debug\net5.0\Appdoon.Application.dll
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\bin\Debug\net5.0\ref\Appdoon.Application.dll
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\bin\Debug\net5.0\Appdoon.Application.pdb
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.csproj.AssemblyReference.cache
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.AssemblyInfoInputs.cache
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.AssemblyInfo.cs
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.csproj.CoreCompileInputs.cache
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.dll
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\ref\Appdoon.Application.dll
+C:\Users\arman\OneDrive\Desktop\Appdoon_OnlineUniversity\Src\Appdoon.Application\obj\Debug\net5.0\Appdoon.Application.pdb
