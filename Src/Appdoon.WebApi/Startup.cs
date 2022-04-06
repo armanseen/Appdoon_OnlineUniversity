@@ -31,7 +31,7 @@ namespace OU_API
         public void ConfigureServices(IServiceCollection services)
         {
             // Facad Pattern
-
+            //test reyhan
             //Enable CORS
             services.AddCors(c =>
             {

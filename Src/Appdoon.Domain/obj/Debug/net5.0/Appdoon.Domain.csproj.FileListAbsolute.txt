@@ -10,3 +10,15 @@ C:\Appdoon\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.dll
 C:\Appdoon\Src\Appdoon.Domain\obj\Debug\net5.0\refint\Appdoon.Domain.dll
 C:\Appdoon\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.pdb
 C:\Appdoon\Src\Appdoon.Domain\obj\Debug\net5.0\ref\Appdoon.Domain.dll
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\bin\Debug\net5.0\Appdoon.Domain.deps.json
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\bin\Debug\net5.0\Appdoon.Domain.dll
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\bin\Debug\net5.0\ref\Appdoon.Domain.dll
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\bin\Debug\net5.0\Appdoon.Domain.pdb
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.csproj.AssemblyReference.cache
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.AssemblyInfoInputs.cache
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.AssemblyInfo.cs
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.csproj.CoreCompileInputs.cache
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.dll
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\ref\Appdoon.Domain.dll
+G:\Appdon_uni\Appdoon_OnlineUniversity\Src\Appdoon.Domain\obj\Debug\net5.0\Appdoon.Domain.pdb
