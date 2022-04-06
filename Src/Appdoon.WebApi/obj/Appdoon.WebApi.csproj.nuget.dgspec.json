@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Appdoon\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj": {}
+    "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Appdoon\\Src\\Appdoon.Application\\Appdoon.Application.csproj": {
+    "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Application\\Appdoon.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appdoon\\Src\\Appdoon.Application\\Appdoon.Application.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Application\\Appdoon.Application.csproj",
         "projectName": "Appdoon.Application",
-        "projectPath": "C:\\Appdoon\\Src\\Appdoon.Application\\Appdoon.Application.csproj",
-        "packagesPath": "C:\\Users\\Jazebeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Appdoon\\Src\\Appdoon.Application\\obj\\",
+        "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Application\\Appdoon.Application.csproj",
+        "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jazebeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Appdoon\\Src\\Appdoon.Common\\Appdoon.Common.csproj": {
-                "projectPath": "C:\\Appdoon\\Src\\Appdoon.Common\\Appdoon.Common.csproj"
+              "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Common\\Appdoon.Common.csproj": {
+                "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Common\\Appdoon.Common.csproj"
               },
-              "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
-                "projectPath": "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj"
+              "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
+                "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj"
               }
             }
           }
@@ -71,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Appdoon\\Src\\Appdoon.Common\\Appdoon.Common.csproj": {
+    "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Common\\Appdoon.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appdoon\\Src\\Appdoon.Common\\Appdoon.Common.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Common\\Appdoon.Common.csproj",
         "projectName": "Appdoon.Common",
-        "projectPath": "C:\\Appdoon\\Src\\Appdoon.Common\\Appdoon.Common.csproj",
-        "packagesPath": "C:\\Users\\Jazebeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Appdoon\\Src\\Appdoon.Common\\obj\\",
+        "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Common\\Appdoon.Common.csproj",
+        "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jazebeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,25 +121,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
+    "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj",
         "projectName": "Appdoon.Domain",
-        "projectPath": "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj",
-        "packagesPath": "C:\\Users\\Jazebeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Appdoon\\Src\\Appdoon.Domain\\obj\\",
+        "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj",
+        "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jazebeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -187,25 +175,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Appdoon\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj": {
+    "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appdoon\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj",
         "projectName": "Appdoon.Presistence",
-        "projectPath": "C:\\Appdoon\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj",
-        "packagesPath": "C:\\Users\\Jazebeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Appdoon\\Src\\Appdoon.Presistence\\obj\\",
+        "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj",
+        "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Presistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jazebeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -219,11 +203,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Appdoon\\Src\\Appdoon.Application\\Appdoon.Application.csproj": {
-                "projectPath": "C:\\Appdoon\\Src\\Appdoon.Application\\Appdoon.Application.csproj"
+              "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Application\\Appdoon.Application.csproj": {
+                "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Application\\Appdoon.Application.csproj"
               },
-              "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
-                "projectPath": "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj"
+              "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
+                "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj"
               }
             }
           }
@@ -264,25 +248,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Appdoon\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj": {
+    "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Appdoon\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj",
         "projectName": "Appdoon.WebApi",
-        "projectPath": "C:\\Appdoon\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Jazebeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Appdoon\\Src\\Appdoon.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.WebApi\\Appdoon.WebApi.csproj",
+        "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jazebeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -296,11 +276,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
-                "projectPath": "C:\\Appdoon\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj"
+              "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj": {
+                "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Domain\\Appdoon.Domain.csproj"
               },
-              "C:\\Appdoon\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj": {
-                "projectPath": "C:\\Appdoon\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj"
+              "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj": {
+                "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\Appdoon_OnlineUniversity\\Src\\Appdoon.Presistence\\Appdoon.Presistence.csproj"
               }
             }
           }
@@ -356,7 +336,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
