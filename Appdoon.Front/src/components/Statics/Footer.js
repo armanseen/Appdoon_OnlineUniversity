@@ -74,7 +74,7 @@ const Footer = () => {
                                                             </a>
                                                         </li>
                                                         <li class="menu-item-type-custom">
-                                                            <NavLink to="/about_us">
+                                                            <NavLink to="#!">
                                                                 درباره ما
                                                             </NavLink>
                                                         </li>

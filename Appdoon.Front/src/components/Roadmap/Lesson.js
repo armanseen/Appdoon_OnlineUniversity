@@ -197,9 +197,8 @@ const Lesson = () => {
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src={photopath+"1.jpg"}
-                                                            alt="تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر
-                                                            کاهش پیدا کرد"/>
+                                                        <img src={photopath+"Hardcode1.jpg"}
+                                                            alt="تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر کاهش پیدا کرد"/>
                                                     </a>
                                                 </div>
                                                 <div class="title">
@@ -217,15 +216,12 @@ const Lesson = () => {
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src={photopath+"1.jpg"}
-                                                            alt="تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر
-                                                            کاهش پیدا کرد"/>
-                                                    </a>
+                                                        <img src={photopath+"Hardcode2.jpg"}
+                                                            alt="رسیدن به بهترین نتیجه در کمترین زمان ممکن!"/> </a>
                                                 </div>
                                                 <div class="title">
                                                     <a href="#">
-                                                        <h2 class="title-tag">تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر
-                                                            کاهش پیدا کرد</h2>
+                                                        <h2 class="title-tag">رسیدن به بهترین نتیجه در کمترین زمان ممکن!</h2>
                                                     </a>
                                                     <span class="post-date">
                                                         14 اردیبهشت 1399
@@ -237,15 +233,12 @@ const Lesson = () => {
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src={photopath+"1.jpg"}
-                                                            alt="تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر
-                                                            کاهش پیدا کرد"/>
-                                                    </a>
+                                                        <img src={photopath+"Hardcode3.jpg"}
+                                                            alt="آیفون ۲۰۱۹ از آنتن بهتری بهره خواهد برد"/> </a>
                                                 </div>
                                                 <div class="title">
                                                     <a href="#">
-                                                        <h2 class="title-tag">تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر
-                                                            کاهش پیدا کرد</h2>
+                                                        <h2 class="title-tag">آیفون ۲۰۱۹ از آنتن بهتری بهره خواهد برد</h2>
                                                     </a>
                                                     <span class="post-date">
                                                         14 اردیبهشت 1399
@@ -257,15 +250,12 @@ const Lesson = () => {
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src={photopath+"1.jpg"}
-                                                            alt="تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر
-                                                            کاهش پیدا کرد"/>
-                                                    </a>
+                                                        <img src={photopath+"Hardcode4.jpg"}
+                                                            alt="۴ فایده مهم نگهداری از گیاهان در منزل"/> </a>
                                                 </div>
                                                 <div class="title">
                                                     <a href="#">
-                                                        <h2 class="title-tag">تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر
-                                                            کاهش پیدا کرد</h2>
+                                                        <h2 class="title-tag">۴ فایده مهم نگهداری از گیاهان در منزل</h2>
                                                     </a>
                                                     <span class="post-date">
                                                         14 اردیبهشت 1399
@@ -273,7 +263,25 @@ const Lesson = () => {
                                                 </div>
                                             </div>
                                         </div>
-
+                                        <div class="item">
+                                            <div class="item-inner">
+                                                <div class="item-thumb">
+                                                    <a href="#" class="img-holder d-block">
+                                                        <img src={photopath+"Hardcode5.jpg"}
+                                                            alt="منتقدان می‌گویند «نمای دور» جان تازه‌ای به کمدی رمانتیک بخشیده"/>
+                                                    </a>
+                                                </div>
+                                                <div class="title">
+                                                    <a href="#">
+                                                        <h2 class="title-tag">منتقدان می‌گویند «نمای دور» جان تازه‌ای به کمدی
+                                                            رمانتیک بخشیده</h2>
+                                                    </a>
+                                                    <span class="post-date">
+                                                        14 اردیبهشت 1399
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </section>
                             </div>

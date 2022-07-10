@@ -12,9 +12,14 @@ using System.Threading.Tasks;
 
 namespace Appdoon.Application.Services.Homeworks.Command.UpdateHomeworkService
 {
+    public class UpdateHomeworkDto
+    {
+        public int MinScore { get; set; }
+        public string Title { get; set; }
+    }
     public interface IUpdateHomeworkService
     {
-        ResultDto Execute(int id, HttpRequest httpRequest);
+        ResultDto Execute(int id, UpdateHomeworkDto updateHomeworkDto);
     }
     public class UpdateHomeworkService : IUpdateHomeworkService
     {
@@ -24,7 +29,7 @@ namespace Appdoon.Application.Services.Homeworks.Command.UpdateHomeworkService
         {
             _context = context;
         }
-        public ResultDto Execute(int id, HttpRequest httpRequest)
+        public ResultDto Execute(int id, UpdateHomeworkDto updateHomeworkDto)
         {
             try
             {
@@ -33,51 +38,9 @@ namespace Appdoon.Application.Services.Homeworks.Command.UpdateHomeworkService
                     .Include(h => h.Questions)
                     .FirstOrDefault();
 
-                List<string> data = new List<string>();
-
-                foreach (var key in httpRequest.Form.Keys)
-                {
-                    var val = httpRequest.Form[key];
-                    data.Add(val);
-                }
-                int minScore = int.Parse(data[0]);
-                int childStepId = int.Parse(data[1]);
-                var childStep = _context.ChildSteps
-                    .Where(x => x.Id == childStepId)
-                    .FirstOrDefault();
-
-                List<string> Questionsdesc = new List<string>();
-
-                for (int i = 2; i < data.Count; i+=6)
-                {
-                    for (int j = i; j < data.Count && j < (i + 6); j++)
-                    {
-                        Questionsdesc.Add(data[j]);
-                    }
-                }
-
-                List<Question> questions = new List<Question>();
-                if (Questionsdesc.Count != 0)
-                {
-                    for (int i = 0; i < Questionsdesc.Count; i+=6)
-                    {
-                        Question question = new Question();
-                        question.QuestionDescription = Questionsdesc[i];
-                        question.Option1 = Questionsdesc[i + 1];
-                        question.Option2 = Questionsdesc[i + 2];
-                        question.Option3 = Questionsdesc[i + 3];
-                        question.Option4 = Questionsdesc[i + 4];
-                        question.Answer = int.Parse(Questionsdesc[i + 5]);
-
-                        questions.Add(question);
-                    }
-                }
-
                 homework.UpdateTime = DateTime.Now;
-                homework.Questions = questions;
-                homework.MinScore = minScore;
-             //   homework.ChildStepId = childStepId;
-                homework.ChildStep = childStep;
+                homework.MinScore = updateHomeworkDto.MinScore;
+                homework.Title = updateHomeworkDto.Title;
 
                 _context.SaveChanges();
 

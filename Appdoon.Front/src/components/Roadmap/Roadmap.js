@@ -35,7 +35,6 @@ const Roadmap = () => {
     const {data : userInfo} = useFetch(urlAuth,sensetive);
 
     const [urlHasRoadmap, setUrlHasRoadmap] = useState(process.env.REACT_APP_API + "Roadmap/HasUserRoadmap")
-    const [query_string_has_roadmap, set_query_string_has_roadmap] = useState(`${urlHasRoadmap}?RoadmapId=${-1}`)
     const [HasRoadmap, setHasRoadmap] = useState(false);
 
     const [urlRegisterRoadmap, setUrlRegisterRoadmap] = useState(process.env.REACT_APP_API + "Roadmap/RegisterRoadmap")
@@ -52,7 +51,6 @@ const Roadmap = () => {
 
     useEffect (() => {
         if(roadmap && userInfo){
-            set_query_string_has_roadmap(`${urlHasRoadmap}?RoadmapId=${roadmap.Id}`);
             set_query_string_register_roadmap(`${urlRegisterRoadmap}?RoadmapId=${roadmap.Id}`);
 
             fetch(`${urlHasRoadmap}?RoadmapId=${roadmap.Id}`, {credentials:"include"})

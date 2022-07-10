@@ -23,7 +23,8 @@ import Lessons from './Components/Roadmap/Lessons';
 import ListCategory from './Components/List_Roadmap/ListCategory';
 
 //Homework
-import All_Questions from './Components/HomeWork/All_Questions';
+import Queiz from './Components/HomeWork/Queiz';
+import Queizzes from './Components/HomeWork/Quizzes';
 
 //User(Profile)
 import Profile from './Components/User/Profile';
@@ -65,7 +66,8 @@ function App() {
           <Route path={`/categories`} element={<ListCategory/>}/>
 
           {/*Homework*/}
-          <Route path={`/All_Questions`} element={<All_Questions/>}/>
+          <Route path={`/Queiz/:id`} element={<Queiz/>}/>
+          <Route path={`/Queizzes`} element={<Queizzes/>}/>
 
           {/*User(Profile)*/}
           <Route path={`/Profile`} element={<Profile/>}/>
@@ -77,7 +79,7 @@ function App() {
           <Route path={`/UserCreatedLessons`} element={<UserCreatedLessons/>}/>
 
           {/*Others*/}
-          <Route path={`/about_us`} element={<AboutUs/>}/>
+          {/*<Route path={`/about_us`} element={<AboutUs/>}/>*/}
           <Route path="*" element={<NotFound/>}/>
 
         </Routes>

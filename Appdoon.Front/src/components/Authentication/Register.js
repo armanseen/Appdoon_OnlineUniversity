@@ -111,7 +111,7 @@ const Register = () => {
                         <section className="page-account-box">
                             <div className="col-lg-6 col-md-6 col-xs-12 mx-auto">
                                 <div className="ds-userlogin">
-                                    <a href="#" className="account-box-logo">Appdoon</a>
+                                    <a href="#" className="account-box-logo" style={{marginTop:"-10px"}}>Appdoon</a>
                                     <div className="account-box">
                                         <div className="account-box-headline">
                                             <NavLink to="/login" class="login-ds">

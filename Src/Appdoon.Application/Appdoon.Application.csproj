@@ -20,6 +20,7 @@
   <ItemGroup>
     <Folder Include="Services\Homeworks\Command\" />
     <Folder Include="Services\Progress\Query\" />
+    <Folder Include="Services\Questions\Query\" />
   </ItemGroup>
 
 </Project>

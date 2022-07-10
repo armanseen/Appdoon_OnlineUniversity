@@ -122,15 +122,10 @@ const Navigation = () => {
 
 
                                         <li id="nav-menu-item" class="menu-item">
-                                            <NavLink className="current-link-menu" to="/All_Questions">
-                                              صفحه تمرینات
+                                            <NavLink className="current-link-menu" to="/Queizzes">
+                                              بانک آزمون
                                             </NavLink>
                                         </li> 
-                                        <li id="nav-menu-item" class="menu-item">
-                                            <NavLink className="current-link-menu" to="/EditQuiz">
-                                              صفحه ساخت تمرینات
-                                            </NavLink>
-                                        </li>
                                         
                                         <li id="nav-menu-item" class="menu-item">
                                             {userInfo.Role == "Admin" && 
@@ -156,10 +151,28 @@ const Navigation = () => {
                             </div>
                             <ul class="nav-categories ul-base">
 
-                                <li><NavLink className="current-link-menu" to="/roadmaps">رودمپ‌ها</NavLink></li>
-                                <li><NavLink className="current-link-menu" to="/create_roadmap">ساخت رودمپ</NavLink></li>
-                                <li><NavLink className="current-link-menu" to="/lessons">مقالات</NavLink></li>
-                                <li><NavLink className="current-link-menu" to="/edit_roadmap">ویرایش رودمپ</NavLink></li>
+                                    <li>
+                                    <NavLink className="current-link-menu" to="/roadmaps">
+                                        رودمپ‌ها
+                                    </NavLink>
+                                    </li>
+                                    <li>
+                                    <NavLink className="current-link-menu" to="/lessons">
+                                                مقالات
+                                    </NavLink>
+                                    </li>
+                                    <li>
+                                    <NavLink className="current-link-menu" to="/Queizzes">
+                                        بانک آزمون
+                                    </NavLink>
+                                    </li>
+                                    <li>
+                                    {userInfo.Role == "Admin" && 
+                                        <NavLink className="current-link-menu" to="/categories">
+                                        دسته‌ها
+                                        </NavLink>
+                                    }
+                                    </li>
 
 
                             </ul>
@@ -171,6 +184,7 @@ const Navigation = () => {
                         </div>
                         <div class="overlay"></div>
                         {/* bottom-menu-joomy -->*/}
+                        {/*
                         <div class="bottom-menu-joomy">
                             <ul class="mb-0">
                                 <li>
@@ -208,6 +222,7 @@ const Navigation = () => {
                                 </li>
                             </ul>
                         </div>
+                        /*}
                         {/*    responsive-megamenu-mobile----------------->*/}
                     </div>
                 </div>
