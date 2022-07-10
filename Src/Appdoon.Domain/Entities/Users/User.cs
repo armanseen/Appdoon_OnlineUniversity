@@ -1,5 +1,6 @@
 ﻿using Appdoon.Common.UserRoles;
 using Appdoon.Domain.Commons;
+using Appdoon.Domain.Entities.HomeWorks;
 using Appdoon.Domain.Entities.Progress;
 using Appdoon.Domain.Entities.RoadMaps;
 using System;
@@ -27,5 +28,6 @@ namespace Appdoon.Domain.Entities.Users
 		public List<ChildStepProgress> ChildStepProgresses { get; set; } = new();
 		public List<HomeworkProgress> HomeworkProgresses { get; set; } = new();
 		public List<Lesson> CreatedLessons { get; set; } = new();
+		public List<Homework> CreatedHomeworks { get; set; } = new();
 	}
 }

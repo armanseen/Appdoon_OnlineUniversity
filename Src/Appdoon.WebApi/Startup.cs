@@ -13,6 +13,7 @@ using Appdoon.Application.Services.ChildSteps.Query.GetIndividualChildStepServic
 using Appdoon.Application.Services.Homeworks.Command.CreateHomeworkService;
 using Appdoon.Application.Services.Homeworks.Command.DeleteHomeworkService;
 using Appdoon.Application.Services.Homeworks.Command.UpdateHomeworkService;
+using Appdoon.Application.Services.Homeworks.Query.GetAllHomeworksService;
 using Appdoon.Application.Services.Homeworks.Query.GetHomeworkService;
 using Appdoon.Application.Services.Lessons.Command.CreateLessonService;
 using Appdoon.Application.Services.Lessons.Command.DeleteLessonService;
@@ -27,6 +28,9 @@ using Appdoon.Application.Services.Linkers.Query.GetAllLinkersService;
 using Appdoon.Application.Services.Linkers.Query.GetIndividualLinkerService;
 using Appdoon.Application.Services.Progress.Command.DoneChildStep;
 using Appdoon.Application.Services.Progress.Command.DoneHomeworkService;
+using Appdoon.Application.Services.Questions.Command.CreateQuestionService;
+using Appdoon.Application.Services.Questions.Command.DeleteQuestionService;
+using Appdoon.Application.Services.Questions.Command.UpdateQuestionService;
 using Appdoon.Application.Services.Roadmaps.Command.CreateRoadmapService;
 using Appdoon.Application.Services.Roadmaps.Command.DeleteRoadmapService;
 using Appdoon.Application.Services.Roadmaps.Command.UpdateRoadmapService;
@@ -280,9 +284,15 @@ namespace OU_API
             services.AddScoped<IGetHomeworkService, GetHomeworkService>();
             services.AddScoped<ICreateHomeworkService, CreateHomeworkService>();
             services.AddScoped<IUpdateHomeworkService, UpdateHomeworkService>();
-            services.AddScoped<IDeleteHomeworkService, DeleteHomeworkService>();
+            services.AddScoped<IDeleteHomeworkService, DeleteHomeworkService>(); 
+            services.AddScoped<IGetAllHomeworksService, GetAllHomeworksService>();
 
             services.AddScoped<IDoneHomeworkService, DoneHomeworkService>();
+
+            //Question
+            services.AddScoped<ICreateQuestionService, CreateQuestionService>();
+            services.AddScoped<IUpdateQuestionService, UpdateQuestionService>();
+            services.AddScoped<IDeleteQuestionService, DeleteQuestionService>();
 
             // get created roadmaps service
             services.AddScoped<IGetCreatedRoadMapService, GetCreatedRoadMapService>();

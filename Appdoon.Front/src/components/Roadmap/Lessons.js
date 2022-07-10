@@ -173,7 +173,7 @@ const Lessons = () =>{
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src="assets/images/blog/fortnite-battle-royale-iphone.jpg"
+                                                        <img src={photopath+"Hardcode1.jpg"}
                                                             alt="تعداد بازی‌کننده‌های فورتنایت، به خاطر آپدیت اخیر کاهش پیدا کرد"/>
                                                     </a>
                                                 </div>
@@ -192,7 +192,7 @@ const Lessons = () =>{
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src="assets/images/blog/2017 Home Selling Results.jpg"
+                                                        <img src={photopath+"Hardcode2.jpg"}
                                                             alt="رسیدن به بهترین نتیجه در کمترین زمان ممکن!"/> </a>
                                                 </div>
                                                 <div class="title">
@@ -209,7 +209,7 @@ const Lessons = () =>{
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src="assets/images/blog/iphone-7-plus-water-damage-repair-.jpg"
+                                                        <img src={photopath+"Hardcode3.jpg"}
                                                             alt="آیفون ۲۰۱۹ از آنتن بهتری بهره خواهد برد"/> </a>
                                                 </div>
                                                 <div class="title">
@@ -226,7 +226,7 @@ const Lessons = () =>{
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src="assets/images/blog/women-calligrapher-in-cozy-home-working.jpg"
+                                                        <img src={photopath+"Hardcode4.jpg"}
                                                             alt="۴ فایده مهم نگهداری از گیاهان در منزل"/> </a>
                                                 </div>
                                                 <div class="title">
@@ -243,7 +243,7 @@ const Lessons = () =>{
                                             <div class="item-inner">
                                                 <div class="item-thumb">
                                                     <a href="#" class="img-holder d-block">
-                                                        <img src="assets/images/blog/inRqLEr.jpg"
+                                                        <img src={photopath+"Hardcode5.jpg"}
                                                             alt="منتقدان می‌گویند «نمای دور» جان تازه‌ای به کمدی رمانتیک بخشیده"/>
                                                     </a>
                                                 </div>

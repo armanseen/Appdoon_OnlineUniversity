@@ -77,7 +77,7 @@ const Login = () => {
                         <section class="page-account-box">
                             <div class="col-lg-6 col-md-6 col-xs-12 mx-auto">
                                 <div class="ds-userlogin">
-                                    <a href="#" class="account-box-logo">Appdoon</a>
+                                    <a href="#" class="account-box-logo" style={{marginTop:"-10px"}}>Appdoon</a>
                                     <div class="account-box">
 
                                         <div class="account-box-headline">

@@ -58,12 +58,11 @@
 }
 .Answers li:hover{
     cursor: pointer;
-    background-color: #a2a2a2;
+    background-color: #5810f3;
 }
 .Answers .correct,
 .Answers .correct:hover {
-    background-color: #1db900;
-    border-left: 8px solid #0f6300;
+    background-color: #a2a2a2;
 }
 .Answers .incorrect,
 .Answers .incorrect:hover {

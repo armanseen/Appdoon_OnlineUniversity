@@ -15,11 +15,10 @@ namespace Appdoon.Application.Services.Homeworks.Query.GetHomeworkService
     public class HomeworkDto
     {
         public int Id { get; set; }
+        public string Title { get; set; }
         public List<Question> Questions { get; set; } = new();
         public int MinScore { get; set; }
         public List<HomeworkProgress> HomeworkProgresses { get; set; } = new();
-        public ChildStep? ChildStep { get; set; }
-        public int ChildStepId { get; set; }
     }
     public interface IGetHomeworkService
     {
@@ -43,11 +42,11 @@ namespace Appdoon.Application.Services.Homeworks.Query.GetHomeworkService
                     .Select(h => new HomeworkDto()
                     {
                         Id = h.Id,
+                        Title = h.Title,
                         Questions = h.Questions,
                         MinScore = h.MinScore,
                         HomeworkProgresses = h.HomeworkProgresses,
-                        ChildStep = h.ChildStep,
-                    //    ChildStepId = h.ChildStepId
+
                     }).FirstOrDefault();
 
                 if (homework == null)
